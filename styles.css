@@ -58,6 +58,16 @@ body {
 .select option {
     font-weight:normal;
 }
+
+.output {
+    width: 100%;
+    padding: 50px;
+    font-size: 4rem;
+    border-radius: .5em;
+    margin: 5px;
+    outline: none;
+    background-color: #e5e5e5;
+}
 /* Calculator Styles */
 .calculator-grid {
     display: grid;
@@ -75,4 +85,6 @@ button {
     font-size: 4rem;
     border-radius: .5em;
     margin: 5px;
+    outline: none;
+    background-color: #e5e5e5;
 }
