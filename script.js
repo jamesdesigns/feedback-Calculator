@@ -1,6 +1,14 @@
 let sel = document.getElementById('selectCalc');
 // let newCalcType = sel.options[sel.selectedIndex];
 
+let rangeSlider = document.getElementById('sliderRange');
+let output = document.getElementById("demo");
+output.innerHTML = rangeSlider.value;
+
+rangeSlider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
 
 function getSelectedOption(sel) {
     let opt;
