@@ -68,6 +68,27 @@ body {
     outline: none;
     background-color: #e5e5e5;
 }
+.rangeSlider {
+    width: 50%;
+    margin-left: 25%;
+}
+.mySlider {
+    -webkit-appearance: none;
+    background: #ccc;
+    width: 50%;
+    height: 20px;
+    opacity: 2;
+}
+.mySlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #34495e;
+    width: 5%;
+    height: 20px;
+}
+.mySlider:hover {
+    opacity: 1;
+}
 /* Calculator Styles */
 .calculator-grid {
     display: grid;
